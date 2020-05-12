@@ -1,0 +1,71 @@
+body {
+	background-color: lightblue;
+	margin:0;
+}
+@media only screen and (max-width: 800px) {
+  .menutext{
+  	display:none;
+  }
+}
+#icon-bar {
+ 	width: 100%;
+ 	background-color: #f3ff87;
+ 	overflow: auto;
+}
+
+#icon-bar a {
+	text-decoration:none;
+ 	float: left;
+ 	width: 20%;
+ 	text-align: center;
+ 	padding: 12px 0;
+ 	transition: all 0.3s ease;
+ 	color: black;
+ 	font-size: 36px;
+}
+
+#icon-bar a:hover {
+ 	background-color: #000;
+ 	color:white;
+}
+.home {
+	background-color: #4DAF50;
+  	color: white;
+}
+.show{
+	font-family: Arial, Sans-Serif;
+	font-weight:bold;
+	text-decoration-color: white;
+	text-align:center;
+}
+.logo {
+	width:60px;
+	height:36px;
+}
+.title {
+	font-family: Arial, Sans-Serif;
+	font-size:60px;
+	font-weight:bold;
+	color:black;
+	text-align:center;
+}
+.PGH {
+	font-family: Arial, Sans-Serif;
+	font-size:20px;
+	text-indent:2em;
+}
+#pwrd {
+	border: none;
+	border-bottom: 1px solid #3a3a3a;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	outline: none;
+	padding: 0px 0px 5px 5px;
+}
+
+#logodescript {
+	font-family:Arial, Sans-Serif;
+	font-size:25px;
+	font-weight:bold;
+	color:grey;
+}

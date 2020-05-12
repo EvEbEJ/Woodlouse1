@@ -1,0 +1,18 @@
+<script>
+	function ShowPwd(){
+		var x = document.getElementById("pwrd");
+		if(x.type === "password"){
+			x.type = "text";
+		}else{
+			x.type = "password";
+		}
+	}
+	const pwrdv = document.getElementById("submit");
+	pwrdv.addEventListener("click", (e) => {
+	e.preventDefault();
+	const password = passform.password.value;
+	if (password === "EvEbEs121106GodIsGood") {
+		window.location.href = "main/MainPage.html";
+	}
+	})
+</script>	
